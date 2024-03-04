@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AD0C2;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #2d9596;
+    color: #bec5c3;
+}
+
+.innerbox {
+    width: 600px;
+    height: 650px;
+    background-color: #f1fada;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.taasnabox {
+    width: 100%;
+    height: 10%;
+    border: 1px solid #9AD0C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border: 1px solid #9AD0C2;
+}
+
+.ilalimbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #9AD0C2;
+}
+
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bleft {
+    width:50%;
+    border-right: 1px solid #9AD0C2;
+    
+}
+
+.bright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+.group {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+#sales {
+    padding:20px 0px;
+}
+
+.hideleft {
+    border-left: hidden;
+}
+
+.hidebottom {
+    border-bottom: hidden;
+}
+
+.hidetop {
+    border-top: hidden;
+}
+
+.hideright {
+    border-right: hidden;
+}
+
+.hide {
+    border: hidden;
+}
+
+.positionfix {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.bleft p {
+    margin-top: 30px;
+    margin-left: 20px;
+}
